@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "halflings";
+  }
+
+.navbar-nav {
+    width: 200px; /* Largeur personnalisée */
+  }
+
+#home{
+    background-image: url('../images/bg_header.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    position: sticky;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom:50%;
+    right: 20px;
+    display: none;
+    }
+
+#home p {
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+.separator {
+    border-top: 1px solid gray;
+  }
+
+
+.fa-pencil, .fa-camera, .fa-bookmark {
+    color: gray;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.back {
+    background-color:rgba(121, 213, 247, 0.66);
+}
+
+#photo {
+    background-color: rgb(223, 213, 213);
+}
+
+
+
+#partenaires img {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(80, 79, 79);
+}
+
+.fa-facebook, .fa-twitter, .fa-github, .fa-instagram, .fa-basketball{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+@media (min-width: 768px) {  
+    #about strong{font-size:1.5rem;} /*1rem = 16px*/
+  }
+
+
+  .fa-facebook:hover {
+    color: rgb(0, 128, 79);
+  }
